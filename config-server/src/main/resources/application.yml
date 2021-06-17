@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          search-paths: fornecedor
+          uri: https://github.com/fagnermiranda/microservice-repo
